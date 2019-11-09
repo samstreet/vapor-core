@@ -5,7 +5,7 @@ namespace Laravel\Vapor\Runtime;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Pipeline\Pipeline;
-use Illuminate\Foundation\Application;
+use Laravel\Lumen\Application;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Contracts\Http\Kernel as HttpKernelContract;
 use Laravel\Vapor\Runtime\Http\Middleware\EnsureOnNakedDomain;
